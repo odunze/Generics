@@ -19,7 +19,12 @@ func swapNumbers(a: Int, b: Int) {
 swapNumbers(a: 7, b: 9)
 
 
-struct CountedSet {
+struct CountedSet: Hashable {
+}
+
+extension CountedSet {
+    subscript(_ member: Element) -> Int) {
     
-    
+    return 0
+    }
 }
